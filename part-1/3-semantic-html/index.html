@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="/css/result.css" />
   </head>
 
+  <header role="banner"></header>
+
   <body>
+    <main role="main">  
     <div class="site-wrapper">
       <div class="site-header">
         <div class="site-header__title">Messages</div>
       </div>
-      <div class="messages">
+      <article class="messages">
         <div class="message">
           <div class="message__author">Won</div>
           <p class="message__content">Where should we meet later?</p>
@@ -35,9 +38,10 @@
           </p>
           <span class="message__time">Mar 25, 2018 7:38pm</span>
         </div>
-      </div>
+      </article>
       <div id="result" class="result"></div>
     </div>
+  </main>
     <script defer src="/js/3-result.js"></script>
   </body>
 </html>
